@@ -10,6 +10,8 @@ class Point:
 
 center = Point()
 
+# bad
 make_circle(10, 20, 15)
 
+# good
 make_circle(center)
